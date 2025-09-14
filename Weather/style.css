@@ -1,0 +1,78 @@
+
+.main{
+    color: bisque;
+    height: 3cm;
+    padding-left: 34%;
+    padding-top: 1%;
+    font-size: 6mm;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    border-radius: 0.4cm;
+}
+@media (max-width: 768px){
+  .main {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.4cap;
+
+}
+}
+.main img{
+    width: 2cm;
+    height: 2cm;
+}
+.sec{
+    padding-top: 8%;
+    padding-left: 34%;
+}
+@media (max-width: 768px){
+  .sec {
+    padding-left: 4%;
+    width: 8cm;
+
+}
+}
+.input{
+    height: 1cm;
+    width: 10cm;
+    border-radius: 0.2cm;
+     border-color: antiquewhite;
+     padding-left: 2%;
+}
+@media (max-width: 768px){
+  .input {
+    padding-left: 6%;
+    width: 8cm;
+  margin-top: 50px;
+
+}
+}
+.button{
+    height: 1.1cm;
+    background-color:  #106f8f;
+    border-color: antiquewhite;
+    border-radius: 0.2cm;
+    color: white;
+}
+@media (max-width: 768px){
+  .button {
+    width: 87mm;
+  margin-top: 1%
+
+}
+}
+body {
+  background-image: url('https://c1.wallpaperflare.com/preview/706/939/769/clouds-outdoors-sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+#weather{
+    padding-left: 2%;
+    padding-top: 0.5%;
+ font-size: large;
+ color: #214563;
+}
